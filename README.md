@@ -32,15 +32,15 @@ BitBucket/
 
 ├── public/              # DOCUMENT ROOT (Accesible desde navegador)
 
-│   └── index.php        # Controlador frontal: Recibe datos y gestiona la vista
+│    └── index.php        # Controlador frontal: Recibe datos y gestiona la vista
 
 ├── src/                 # LÓGICA DE NEGOCIO (No accesible directamente)
 
-│   ├── datos.php        # "Simulación de BD": Arrays de provincias, sedes, deptos.
+│     ├── datos.php        # "Simulación de BD": Arrays de provincias, sedes, deptos.
 
-│   ├── validaciones.php # Funciones de validación (validarDni, validarEmail...)
+ │    ├── validaciones.php # Funciones de validación (validarDni, validarEmail...)
 
-│   └── vistas.php       # Funciones para pintar HTML (pintarHeader, formularios...)
+│    └── vistas.php       # Funciones para pintar HTML (pintarHeader, formularios...)
 
 └── README.md            # Documentación del proyecto
 
