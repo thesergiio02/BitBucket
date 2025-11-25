@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      # Este mapeo permite que si editas en local, se actualice en el contenedor (modo desarrollo)
+      - ./public:/var/www/html
+      - ./src:/var/www/src
+    container_name: app-empleados
